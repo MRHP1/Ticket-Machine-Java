@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=SimpleTicketMachine
+comment0.text=\r\n\ SimpleTicketMachine\ models\ a\ basic\ ticket\ machine\ that\ sells\ tickets\r\n\ at\ a\ fixed\ price.\ Users\ are\ expected\ to\ enter\ the\ correct\ amount.\r\n\ No\ sophisticated\ checks\ are\ performed.\r\n\ \r\n\ @author\ Refactor\r\n\ @version\ 2024.09.19\r\n
+comment1.params=price
+comment1.target=SimpleTicketMachine(int)
+comment1.text=\r\n\ Create\ a\ ticket\ machine\ that\ sells\ tickets\ at\ a\ specific\ price.\r\n\ @param\ price\ the\ cost\ of\ a\ ticket\r\n
+comment2.params=
+comment2.target=int\ getTicketPrice()
+comment2.text=\r\n\ Get\ the\ price\ of\ a\ single\ ticket.\r\n\ @return\ the\ ticket\ price\r\n
+comment3.params=
+comment3.target=int\ getCurrentBalance()
+comment3.text=\r\n\ Get\ the\ total\ money\ inserted\ for\ the\ current\ transaction.\r\n\ @return\ the\ current\ balance\r\n
+comment4.params=amount
+comment4.target=void\ insertMoney(int)
+comment4.text=\r\n\ Insert\ money\ into\ the\ machine.\r\n\ Only\ positive\ amounts\ are\ accepted.\r\n\ @param\ amount\ the\ amount\ to\ be\ inserted\r\n
+comment5.params=
+comment5.target=void\ printTicket()
+comment5.text=\r\n\ Print\ a\ ticket\ if\ enough\ money\ has\ been\ inserted.\r\n\ Otherwise,\ inform\ the\ user\ of\ how\ much\ more\ is\ needed.\r\n
+comment6.params=
+comment6.target=int\ refundBalance()
+comment6.text=\r\n\ Refund\ the\ balance\ if\ any.\r\n\ @return\ the\ refunded\ balance\r\n
+comment7.params=
+comment7.target=int\ getTotalRevenue()
+comment7.text=\r\n\ Get\ the\ total\ revenue\ collected\ by\ the\ machine.\r\n\ @return\ the\ total\ revenue\r\n
+numComments=8
